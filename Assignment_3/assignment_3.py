@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun  6 09:28:42 2019
 
+@author: shantanu
+"""
 #Import libabaries
 import numpy as np
 import pandas as pd
@@ -54,7 +60,7 @@ for g in gam:
         data_accuracy_svm=accuracy_score(y_test,svm_y_pred)
         print(g,c,data_accuracy_svm)
 
-#optimum parameter for SVC is gamma=1 and C=1
+#optimum parameter for SVC is gamma=1 and C=10
 
 
 #comparing models we find that random forest gives accuracy of 0.92, decision tree gives accuracy of 0.79 and svc gives accuracy of 0.92 at gamma=1 and C=10
