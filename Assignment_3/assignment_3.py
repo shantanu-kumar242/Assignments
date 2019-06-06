@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun  6 09:28:42 2019
 
-@author: shantanu
-"""
 #Import libabaries
 import numpy as np
 import pandas as pd
